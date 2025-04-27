@@ -1,4 +1,5 @@
-# Pet Breed Identifier
+
+# PAWSENSE AI - Pet Breed Identifier
 
 This project contains a React frontend for uploading pet images and a Node.js Express backend that handles image uploads, calls the HuggingFace inference API, and returns predictions.
 
