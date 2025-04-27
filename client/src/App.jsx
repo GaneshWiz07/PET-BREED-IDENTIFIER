@@ -31,7 +31,7 @@ export default function App() {
     const formData = new FormData();
     formData.append("file", image);
     try {
-      const res = await fetch("http://localhost:5000/predict", {
+      const res = await fetch("https://pet-breed-identifier-server.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
